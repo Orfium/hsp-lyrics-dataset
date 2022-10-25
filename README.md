@@ -10,8 +10,10 @@ In Particular our dataset contains the following files:
 * **lyrics_embeddings.json** which contains the [MSD](http://millionsongdataset.com) id, that is a unique identifier for every track, the Genius id, that can be used to query the Genius API for the lyrics retrieval, and the textual embeddings that were computed from the last layer of the multilingual BERT model. 
 * **hsp_hits.csv** which is a subset of the msd_bb_matches.csv file from the Hit Song Prediction dataset and contains information about the MSD tracks that were also featured in the Billboard Hot 100 charts, i.e. the MSD id, Echo Nest id, artist name, track title, release year, peak position in Billboard charts and the number of weeks in the charts.
 * **hsp_non_hits.csv** which is a subset of the msd_bb_non_matches.csv file from the Hit Song Prediction dataset and contains meta-information about the tracks of the MSD that were not featured in the Billboard Hot 100 and hence were used as negative samples, i.e. the MSD id, Echo Nest id, artist name, track title and the release year.
-* **low_level.json** contains a subset of the low-level audio features computed in the Hit Song Prediction, organized by the MSD id of evey track.
-* **high_level.json** contains a subset of the high-level audio features computed in the Hit Song Prediction, organized by the MSD id of evey track.
+* **low_level_hits.json** contains a subset of the low-level audio features computed in the Hit Song Prediction for the hits class, organized by the MSD id of evey track.
+* **low_level_non_hits.json** contains a subset of the low-level audio features computed in the Hit Song Prediction for the non hits class, organized by the MSD id of evey track.
+* **high_level_hits.json** contains a subset of the high-level audio features computed in the Hit Song Prediction for the hits class, organized by the MSD id of evey track.
+* **high_level_non_hits.json** contains a subset of the high-level audio features computed in the Hit Song Prediction for the non hits class, organized by the MSD id of evey track.
 
 ## Download
 In order to download the zipped data use the following instructions
