@@ -18,7 +18,7 @@ In Particular our dataset contains the following files:
 ## Download
 In order to download the zipped data use the following instructions
 ```
-aws s3 cp link dest
+aws s3 cp s3://audio-video-datasets/internal/hit-song-prediction/data/hsp_lyrics_dataset/ ./ --recursive
 ```
 
 ## Reproducibility
