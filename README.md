@@ -16,9 +16,9 @@ In Particular our dataset contains the following files:
 * **high_level_non_hits.csv** contains a subset of the high-level audio features computed in the Hit Song Prediction for the non hits class, organized by the MSD id of evey track.
 
 ## Download
-In order to download the zipped data use the following instructions
+In order to download the zipped data use the following link
 ```
-aws s3 cp s3://audio-video-datasets/internal/hit-song-prediction/data/hsp_lyrics_dataset/ ./ --recursive
+https://orfium-research-papers.s3.amazonaws.com/hit-song-prediction-dataset/hsp_lyrics_dataset.tar.gz
 ```
 
 ## Reproducibility
