@@ -24,7 +24,7 @@ https://orfium-research-papers.s3.amazonaws.com/hit-song-prediction-dataset/hsp_
 ## Reproducibility
 In order to reproduce our results stated in the paper seed everything with the number 42. In order to balance the hits/non_hits classes use
 ```
-hsp_non_hits = msb_non_hits.sample(n=hsp_hits.shape[0], random_state=42)
+hsp_non_hits = hsp_non_hits.sample(n=hsp_hits.shape[0], random_state=42)
 ```
 in Pandas Python library
 
